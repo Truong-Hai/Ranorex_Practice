@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{05B84E99-4F26-4473-90B9-82C7D753F88B}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>MBA_Testing</RootNamespace>
+    <AssemblyName>MBA Testing</AssemblyName>
+    <NoWarn>1591</NoWarn>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>53b75e31-9e7e-4f9d-bd83-13b15af47f3d</projectdefaultrepository>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Fizzler">
+      <HintPath>..\packages\Fizzler.1.2.0\lib\netstandard1.0\Fizzler.dll</HintPath>
+    </Reference>
+    <Reference Include="Fizzler.Systems.HtmlAgilityPack">
+      <HintPath>..\packages\Fizzler.Systems.HtmlAgilityPack.1.2.1\lib\netstandard1.3\Fizzler.Systems.HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>..\packages\HtmlAgilityPack.1.11.37\lib\Net45\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives, Version=4.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <HintPath>..\packages\Microsoft.Win32.Primitives.4.3.0\lib\net46\Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib" />
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.AppContext, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <HintPath>..\packages\System.AppContext.4.3.0\lib\net463\System.AppContext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Console, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <HintPath>..\packages\System.Console.4.3.0\lib\net46\System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Diagnostics.DiagnosticSource">
+      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.4.3.0\lib\net46\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tracing, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <HintPath>..\packages\System.Diagnostics.Tracing.4.3.0\lib\net462\System.Diagnostics.Tracing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Globalization.Calendars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <HintPath>..\packages\System.Globalization.Calendars.4.3.0\lib\net46\System.Globalization.Calendars.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <HintPath>..\packages\System.IO.4.3.0\lib\net462\System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <HintPath>..\packages\System.IO.Compression.4.3.0\lib\net46\System.IO.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.IO.Compression.ZipFile, Version=4.0.3.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <HintPath>..\packages\System.IO.Compression.ZipFile.4.3.0\lib\net46\System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem, Version=4.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <HintPath>..\packages\System.IO.FileSystem.4.3.0\lib\net46\System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives, Version=4.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <HintPath>..\packages\System.IO.FileSystem.Primitives.4.3.0\lib\net46\System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <HintPath>..\packages\System.Linq.4.3.0\lib\net463\System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Expressions, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <HintPath>..\packages\System.Linq.Expressions.4.3.0\lib\net463\System.Linq.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <HintPath>..\packages\System.Net.Http.4.3.0\lib\net46\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <HintPath>..\packages\System.Net.Sockets.4.3.0\lib\net46\System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Reflection, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <HintPath>..\packages\System.Reflection.4.3.0\lib\net462\System.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <HintPath>..\packages\System.Runtime.4.3.0\lib\net462\System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <HintPath>..\packages\System.Runtime.Extensions.4.3.0\lib\net462\System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <HintPath>..\packages\System.Runtime.InteropServices.4.3.0\lib\net463\System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <HintPath>..\packages\System.Runtime.InteropServices.RuntimeInformation.4.3.0\lib\net45\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms, Version=4.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <HintPath>..\packages\System.Security.Cryptography.Algorithms.4.3.0\lib\net463\System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <HintPath>..\packages\System.Security.Cryptography.Encoding.4.3.0\lib\net46\System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <HintPath>..\packages\System.Security.Cryptography.Primitives.4.3.0\lib\net46\System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <HintPath>..\packages\System.Security.Cryptography.X509Certificates.4.3.0\lib\net461\System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <HintPath>..\packages\System.Text.RegularExpressions.4.3.0\lib\net463\System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <HintPath>..\packages\System.Xml.ReaderWriter.4.3.0\lib\net46\System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddNewProduct\AddNewProd.cs">
+      <id>f877dbb7-3efd-4279-bbcb-b41af4424aab</id>
+    </Compile>
+    <Compile Include="AddNewProduct\LibFunction.cs">
+      <id>aff149e1-96c4-4ec6-9bb4-4397f19bb5fa</id>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <id>614f1326-c1d9-4de3-af20-f32c34450a57</id>
+    </Compile>
+    <Compile Include="CloseBrowser\CloseAJOAPage.cs">
+      <id>478845ef-4827-4669-903d-dcf4b1862bb9</id>
+    </Compile>
+    <Compile Include="CloseBrowser\CloseChormePage.cs">
+      <id>bd27c805-0489-4b1a-bd63-40701c2e1ff0</id>
+    </Compile>
+    <Compile Include="CloseBrowser\CloseMBA.cs">
+      <id>afff3ee1-eada-4e95-9b18-54a3fff882ba</id>
+    </Compile>
+    <Compile Include="CloseBrowser\LogoutAJOA.cs">
+      <id>e36ab65b-90d7-4c1b-b74f-b892be31a602</id>
+    </Compile>
+    <Compile Include="Helpers\CommonTasks.cs">
+      <id>8df3b878-2bc3-48ab-9472-9bc09c873a36</id>
+    </Compile>
+    <Compile Include="Helpers\LibrariFuntionAJOA.cs">
+      <id>06198738-72a2-4bda-8097-700cbd8ed39b</id>
+    </Compile>
+    <Compile Include="Helpers\LibraryFuntionMBA.cs">
+      <id>d007ceeb-2e71-4eeb-bed6-577fbc7068a5</id>
+    </Compile>
+    <Compile Include="Login\CheckLogIn.cs">
+      <id>274c40bf-8e96-4393-bcdf-41a15af75c18</id>
+    </Compile>
+    <Compile Include="Login\LoginMBA.cs">
+      <id>bee38f0e-6ade-49a6-add5-af4a926bd200</id>
+    </Compile>
+    <Compile Include="Login\AddtoCart.cs">
+      <id>82af9e6a-92b2-41fc-a7cd-6bce58ebc298</id>
+    </Compile>
+    <Compile Include="Logout\Logout.cs">
+      <id>065efe95-5204-46ba-97de-dcd4e102c04f</id>
+    </Compile>
+    <Compile Include="MBA_TestingRepository.cs">
+      <BoundTo>53b75e31-9e7e-4f9d-bd83-13b15af47f3d</BoundTo>
+      <DependentUpon>MBA_TestingRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>e5733f93-dc82-4f80-8fa4-55c15b1d19cc</id>
+    </Compile>
+    <Compile Include="Openbrowser\OpenAJOAPage.cs">
+      <id>e346fb1a-dc8b-449c-9d1c-edb0ce1541ad</id>
+    </Compile>
+    <Compile Include="Openbrowser\OpenBrowser.cs">
+      <id>511e319c-40ac-40f6-acd1-2bf699631dcf</id>
+    </Compile>
+    <Compile Include="Openbrowser\OpenBrowserAJOA.cs">
+      <id>ffbd75a6-ae96-433d-ad6d-1112d4dfec1f</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>0ba92ebb-4874-4ba0-8a3b-4392e51c620a</id>
+    </Compile>
+    <Compile Include="Search\OpenListProduct.cs">
+      <id>f2deadb9-07fe-4398-9797-ecdaa31c0be3</id>
+    </Compile>
+    <Compile Include="Search\SearchAndValidateProduct.cs">
+      <id>1df2ae4a-2f50-47d4-a512-7943611826e2</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AJOAPage.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>0812c386-94b1-4dfe-9096-7e474c8b2f00</id>
+    </Content>
+    <Content Include="RanorexPractice.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>c5b937b8-af2c-4d24-b1b9-48343c836963</id>
+    </Content>
+    <None Include="app.config">
+      <id>376a60aa-5e7a-4ea9-955a-7df3bafaf1bb</id>
+    </None>
+    <Content Include="MBA Testing.rxsqc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>c8df32f7-51fe-4e84-bec2-dd7f495dcd68</id>
+    </Content>
+    <None Include="MBA_TestingRepository.rximg">
+      <BoundTo>53b75e31-9e7e-4f9d-bd83-13b15af47f3d</BoundTo>
+      <DependentUpon>MBA_TestingRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>b885e349-549d-46c9-989e-7fe876146e89</id>
+    </None>
+    <None Include="MBA_TestingRepository.rxrep">
+      <id>53b75e31-9e7e-4f9d-bd83-13b15af47f3d</id>
+      <repoid>1cedae4f-e7ab-4b13-8830-e0170d008c29</repoid>
+      <reporootid>53e9ae04-53f5-4be7-8e14-0d53648e3be7</reporootid>
+    </None>
+    <None Include="packages.config">
+      <id>2c83699a-44ba-4241-9b7b-370325c6edf2</id>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MBA_Testing.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>78408c92-8b35-4cd7-a6ce-9ddf73f831da</id>
+    </Content>
+    <Content Include="MBA_Testing.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>6bf75d81-5234-4f6b-847e-495ce0009d8e</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Login">
+      <id>30cfed66-0e48-45e9-8615-e8071fcd7e89</id>
+    </Folder>
+    <Folder Include="Logout">
+      <id>2c4d0d7e-26f9-4c76-82a7-c511248bfb1f</id>
+    </Folder>
+    <Folder Include="AddNewProduct">
+      <id>da3b342a-86e3-4c5b-b138-bd75d3109734</id>
+    </Folder>
+    <Folder Include="CloseBrowser">
+      <id>ea9a1389-cd24-483d-ad25-768889b0b324</id>
+    </Folder>
+    <Folder Include="Helpers">
+      <id>e0fd2de7-bdd6-484e-b7c9-19cb6426b336</id>
+    </Folder>
+    <Folder Include="Openbrowser">
+      <id>9f6f72d1-0cb2-4e4b-a9e8-322e75b03678</id>
+    </Folder>
+    <Folder Include="Search">
+      <id>1352dcb3-e48e-4a61-a4e6-c54fad031bea</id>
+    </Folder>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

@@ -1,0 +1,21 @@
+﻿<Properties>
+  <Array name="active" />
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <Array name="bookmarks" />
+  <Array name="files" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{05B84E99-4F26-4473-90B9-82C7D753F88B}</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>da3b342a-86e3-4c5b-b138-bd75d3109734</string>
+      <string>ea9a1389-cd24-483d-ad25-768889b0b324</string>
+      <string>30cfed66-0e48-45e9-8615-e8071fcd7e89</string>
+      <string>2c4d0d7e-26f9-4c76-82a7-c511248bfb1f</string>
+      <string>9f6f72d1-0cb2-4e4b-a9e8-322e75b03678</string>
+      <string>1352dcb3-e48e-4a61-a4e6-c54fad031bea</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution MBA Testing[Solution Items[]MBA Testing[Helpers[]Login[]MBA_TestingRepository.rxrep[]]]]&#xD;&#xA;Solution MBA Testing\MBA Testing\RanorexPractice.rxtst&#xD;&#xA;Solution MBA Testing\MBA Testing\Reports" />
+  <StartupProject value="{05B84E99-4F26-4473-90B9-82C7D753F88B}" />
+</Properties>

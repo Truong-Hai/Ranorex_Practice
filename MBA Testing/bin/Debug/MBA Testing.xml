@@ -1,0 +1,1153 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MBA Testing</name>
+    </assembly>
+    <members>
+        <member name="T:MBA_Testing.AddNewProduct.AddNewProd">
+            <summary>
+            Description of AddNewProd.
+            </summary>
+        </member>
+        <member name="M:MBA_Testing.AddNewProduct.AddNewProd.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MBA_Testing.AddNewProduct.AddNewProd.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:MBA_Testing.AddNewProduct.LibFunction">
+            <summary>
+            Description of LibFunction.
+            </summary>
+        </member>
+        <member name="M:MBA_Testing.AddNewProduct.LibFunction.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MBA_Testing.AddNewProduct.LibFunction.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:MBA_Testing.CloseBrowser.CloseAJOAPage">
+            <summary>
+            Description of CloseAJOAPage.
+            </summary>
+        </member>
+        <member name="M:MBA_Testing.CloseBrowser.CloseAJOAPage.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MBA_Testing.CloseBrowser.CloseAJOAPage.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:MBA_Testing.CloseBrowser.CloseChormePage">
+            <summary>
+            Description of CloseChormePage.
+            </summary>
+        </member>
+        <member name="M:MBA_Testing.CloseBrowser.CloseChormePage.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MBA_Testing.CloseBrowser.CloseChormePage.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:MBA_Testing.CloseBrowser.CloseMBA">
+            <summary>
+            Description of CloseMBA.
+            </summary>
+        </member>
+        <member name="M:MBA_Testing.CloseBrowser.CloseMBA.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MBA_Testing.CloseBrowser.CloseMBA.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:MBA_Testing.CloseBrowser.LogoutAJOA">
+            <summary>
+            Description of LogoutAJOA.
+            </summary>
+        </member>
+        <member name="M:MBA_Testing.CloseBrowser.LogoutAJOA.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MBA_Testing.CloseBrowser.LogoutAJOA.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:MBA_Testing.Helpers.CommonTasks">
+            <summary>
+            Description of CommonTasks.
+            </summary>
+        </member>
+        <member name="T:MBA_Testing.Helpers.LibrariFuntionAJOA">
+            <summary>
+            Description of LibrariFuntionAJOA.
+            </summary>
+        </member>
+        <member name="M:MBA_Testing.Helpers.LibrariFuntionAJOA.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MBA_Testing.Helpers.LibrariFuntionAJOA.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:MBA_Testing.Helpers.LibraryFuntionMBA">
+            <summary>
+            Description of LibraryFuntion.
+            </summary>
+        </member>
+        <member name="M:MBA_Testing.Helpers.LibraryFuntionMBA.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MBA_Testing.Helpers.LibraryFuntionMBA.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:MBA_Testing.Login.CheckLogIn">
+            <summary>
+            Description of CheckLogIn.
+            </summary>
+        </member>
+        <member name="M:MBA_Testing.Login.CheckLogIn.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MBA_Testing.Login.CheckLogIn.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:MBA_Testing.Login.AddtoCart">
+            <summary>
+            Description of LoginAJOA.
+            </summary>
+        </member>
+        <member name="M:MBA_Testing.Login.AddtoCart.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MBA_Testing.Login.AddtoCart.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:MBA_Testing.LoginMBA">
+            <summary>
+            Description of Login_TC_001.
+            </summary>
+        </member>
+        <member name="M:MBA_Testing.LoginMBA.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MBA_Testing.LoginMBA.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:MBA_Testing.Logout.Logout">
+            <summary>
+            Description of Logout.
+            </summary>
+        </member>
+        <member name="M:MBA_Testing.Logout.Logout.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MBA_Testing.Logout.Logout.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:MBA_Testing.MBA_TestingRepository">
+            <summary>
+            The class representing the MBA_TestingRepository element repository.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the MBA_TestingRepository element repository.
+            </summary>
+        </member>
+        <member name="M:MBA_Testing.MBA_TestingRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepository.parentMenu">
+            <summary>
+            Gets or sets the value of variable parentMenu.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepository.parentname">
+            <summary>
+            Gets or sets the value of variable parentname.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepository.parentList">
+            <summary>
+            Gets or sets the value of variable parentList.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepository.ChromeBrowser">
+            <summary>
+            The ChromeBrowser folder.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepository.MBA_Web">
+            <summary>
+            The MBA_Web folder.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepository.AJOA_Page">
+            <summary>
+            The AJOA_Page folder.
+            </summary>
+        </member>
+        <member name="T:MBA_Testing.MBA_TestingRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:MBA_Testing.MBA_TestingRepositoryFolders.ChromeBrowserAppFolder">
+            <summary>
+            The ChromeBrowserAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MBA_Testing.MBA_TestingRepositoryFolders.ChromeBrowserAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ChromeBrowser  folder.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.ChromeBrowserAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.ChromeBrowserAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.ChromeBrowserAppFolder.AddressAndSearchBar">
+            <summary>
+            The AddressAndSearchBar item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.ChromeBrowserAppFolder.AddressAndSearchBarInfo">
+            <summary>
+            The AddressAndSearchBar item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.ChromeBrowserAppFolder.BackButton">
+            <summary>
+            The BackButton item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.ChromeBrowserAppFolder.BackButtonInfo">
+            <summary>
+            The BackButton item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.ChromeBrowserAppFolder.RefreshButton">
+            <summary>
+            The RefreshButton item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.ChromeBrowserAppFolder.RefreshButtonInfo">
+            <summary>
+            The RefreshButton item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.ChromeBrowserAppFolder.CloseTabButton">
+            <summary>
+            The CloseTabButton item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.ChromeBrowserAppFolder.CloseTabButtonInfo">
+            <summary>
+            The CloseTabButton item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.ChromeBrowserAppFolder.CloseBrowserButton">
+            <summary>
+            The CloseBrowserButton item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.ChromeBrowserAppFolder.CloseBrowserButtonInfo">
+            <summary>
+            The CloseBrowserButton item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.ChromeBrowserAppFolder.ChromeTabLoadingSpinner">
+            <summary>
+            The ChromeTabLoadingSpinner item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.ChromeBrowserAppFolder.ChromeTabLoadingSpinnerInfo">
+            <summary>
+            The ChromeTabLoadingSpinner item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.ChromeBrowserAppFolder.ExternalProtocolRequest">
+            <summary>
+            The ExternalProtocolRequest folder.
+            </summary>
+        </member>
+        <member name="T:MBA_Testing.MBA_TestingRepositoryFolders.ExternalProtocolRequestFolder">
+            <summary>
+            The ExternalProtocolRequestFolder folder.
+            </summary>
+        </member>
+        <member name="M:MBA_Testing.MBA_TestingRepositoryFolders.ExternalProtocolRequestFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ExternalProtocolRequest  folder.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.ExternalProtocolRequestFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.ExternalProtocolRequestFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.ExternalProtocolRequestFolder.LaunchApplicationButton">
+            <summary>
+            The LaunchApplicationButton item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.ExternalProtocolRequestFolder.LaunchApplicationButtonInfo">
+            <summary>
+            The LaunchApplicationButton item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.ExternalProtocolRequestFolder.DoNothingButton">
+            <summary>
+            The DoNothingButton item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.ExternalProtocolRequestFolder.DoNothingButtonInfo">
+            <summary>
+            The DoNothingButton item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.ExternalProtocolRequestFolder.RememberChoiceCheckbox">
+            <summary>
+            The RememberChoiceCheckbox item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.ExternalProtocolRequestFolder.RememberChoiceCheckboxInfo">
+            <summary>
+            The RememberChoiceCheckbox item info.
+            </summary>
+        </member>
+        <member name="T:MBA_Testing.MBA_TestingRepositoryFolders.MBA_WebAppFolder">
+            <summary>
+            The MBA_WebAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MBA_Testing.MBA_TestingRepositoryFolders.MBA_WebAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new MBA_Web  folder.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.MBA_WebAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.MBA_WebAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.MBA_WebAppFolder.Catalog">
+            <summary>
+            The Catalog folder.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.MBA_WebAppFolder.LoginForm">
+            <summary>
+            The LoginForm folder.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.MBA_WebAppFolder.AddNewProduct">
+            <summary>
+            The AddNewProduct folder.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.MBA_WebAppFolder.HomePage">
+            <summary>
+            The HomePage folder.
+            </summary>
+        </member>
+        <member name="T:MBA_Testing.MBA_TestingRepositoryFolders.CatalogFolder">
+            <summary>
+            The CatalogFolder folder.
+            </summary>
+        </member>
+        <member name="M:MBA_Testing.MBA_TestingRepositoryFolders.CatalogFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Catalog  folder.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.CatalogFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.CatalogFolder.MenuCatalog">
+            <summary>
+            The MenuCatalog item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.CatalogFolder.MenuCatalogInfo">
+            <summary>
+            The MenuCatalog item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.CatalogFolder.MenuProduct">
+            <summary>
+            The MenuProduct item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.CatalogFolder.MenuProductInfo">
+            <summary>
+            The MenuProduct item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.CatalogFolder.TxtSearchName">
+            <summary>
+            The TxtSearchName item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.CatalogFolder.TxtSearchNameInfo">
+            <summary>
+            The TxtSearchName item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.CatalogFolder.btnFilter">
+            <summary>
+            The btnFilter item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.CatalogFolder.btnFilterInfo">
+            <summary>
+            The btnFilter item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.CatalogFolder.ListNameProduct">
+            <summary>
+            The ListNameProduct item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.CatalogFolder.ListNameProductInfo">
+            <summary>
+            The ListNameProduct item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.CatalogFolder.btnNextPage">
+            <summary>
+            The btnNextPage item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.CatalogFolder.btnNextPageInfo">
+            <summary>
+            The btnNextPage item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.CatalogFolder.CheckCatalogOpen">
+            <summary>
+            The CheckCatalogOpen item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.CatalogFolder.CheckCatalogOpenInfo">
+            <summary>
+            The CheckCatalogOpen item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.CatalogFolder.NewProd">
+            <summary>
+            The NewProd item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.CatalogFolder.NewProdInfo">
+            <summary>
+            The NewProd item info.
+            </summary>
+        </member>
+        <member name="T:MBA_Testing.MBA_TestingRepositoryFolders.LoginFormFolder">
+            <summary>
+            The LoginFormFolder folder.
+            </summary>
+        </member>
+        <member name="M:MBA_Testing.MBA_TestingRepositoryFolders.LoginFormFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new LoginForm  folder.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.LoginFormFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.LoginFormFolder.txtUserName">
+            <summary>
+            The txtUserName item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.LoginFormFolder.txtUserNameInfo">
+            <summary>
+            The txtUserName item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.LoginFormFolder.txtPassWord">
+            <summary>
+            The txtPassWord item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.LoginFormFolder.txtPassWordInfo">
+            <summary>
+            The txtPassWord item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.LoginFormFolder.btnLogin">
+            <summary>
+            The btnLogin item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.LoginFormFolder.btnLoginInfo">
+            <summary>
+            The btnLogin item info.
+            </summary>
+        </member>
+        <member name="T:MBA_Testing.MBA_TestingRepositoryFolders.AddNewProductFolder">
+            <summary>
+            The AddNewProductFolder folder.
+            </summary>
+        </member>
+        <member name="M:MBA_Testing.MBA_TestingRepositoryFolders.AddNewProductFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new AddNewProduct  folder.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AddNewProductFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AddNewProductFolder.btnAddProduct">
+            <summary>
+            The btnAddProduct item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AddNewProductFolder.btnAddProductInfo">
+            <summary>
+            The btnAddProduct item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AddNewProductFolder.MenuItemData">
+            <summary>
+            The MenuItemData item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AddNewProductFolder.MenuItemDataInfo">
+            <summary>
+            The MenuItemData item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AddNewProductFolder.MenuItemLink">
+            <summary>
+            The MenuItemLink item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AddNewProductFolder.MenuItemLinkInfo">
+            <summary>
+            The MenuItemLink item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AddNewProductFolder.MenuItemImage">
+            <summary>
+            The MenuItemImage item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AddNewProductFolder.MenuItemImageInfo">
+            <summary>
+            The MenuItemImage item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AddNewProductFolder.txtProdName">
+            <summary>
+            The txtProdName item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AddNewProductFolder.txtProdNameInfo">
+            <summary>
+            The txtProdName item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AddNewProductFolder.txtMetatagtitle">
+            <summary>
+            The txtMetatagtitle item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AddNewProductFolder.txtMetatagtitleInfo">
+            <summary>
+            The txtMetatagtitle item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AddNewProductFolder.txtModel">
+            <summary>
+            The txtModel item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AddNewProductFolder.txtModelInfo">
+            <summary>
+            The txtModel item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AddNewProductFolder.CheckBoxAJOA">
+            <summary>
+            The CheckBoxAJOA item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AddNewProductFolder.CheckBoxAJOAInfo">
+            <summary>
+            The CheckBoxAJOA item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AddNewProductFolder.btnImage">
+            <summary>
+            The btnImage item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AddNewProductFolder.btnImageInfo">
+            <summary>
+            The btnImage item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AddNewProductFolder.btnEditImage">
+            <summary>
+            The btnEditImage item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AddNewProductFolder.btnEditImageInfo">
+            <summary>
+            The btnEditImage item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AddNewProductFolder.ImageFolder">
+            <summary>
+            The ImageFolder item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AddNewProductFolder.ImageFolderInfo">
+            <summary>
+            The ImageFolder item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AddNewProductFolder.txtDateAvailable">
+            <summary>
+            The txtDateAvailable item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AddNewProductFolder.txtDateAvailableInfo">
+            <summary>
+            The txtDateAvailable item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AddNewProductFolder.txtEndDate">
+            <summary>
+            The txtEndDate item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AddNewProductFolder.txtEndDateInfo">
+            <summary>
+            The txtEndDate item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AddNewProductFolder.EndDate">
+            <summary>
+            The EndDate item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AddNewProductFolder.EndDateInfo">
+            <summary>
+            The EndDate item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AddNewProductFolder.btnSave">
+            <summary>
+            The btnSave item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AddNewProductFolder.btnSaveInfo">
+            <summary>
+            The btnSave item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AddNewProductFolder.MenuCheckbox">
+            <summary>
+            The MenuCheckbox item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AddNewProductFolder.MenuCheckboxInfo">
+            <summary>
+            The MenuCheckbox item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AddNewProductFolder.txtPrice">
+            <summary>
+            The txtPrice item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AddNewProductFolder.txtPriceInfo">
+            <summary>
+            The txtPrice item info.
+            </summary>
+        </member>
+        <member name="T:MBA_Testing.MBA_TestingRepositoryFolders.HomePageFolder">
+            <summary>
+            The HomePageFolder folder.
+            </summary>
+        </member>
+        <member name="M:MBA_Testing.MBA_TestingRepositoryFolders.HomePageFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new HomePage  folder.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.HomePageFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.HomePageFolder.btnLogout">
+            <summary>
+            The btnLogout item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.HomePageFolder.btnLogoutInfo">
+            <summary>
+            The btnLogout item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.HomePageFolder.ListMenu">
+            <summary>
+            The ListMenu item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.HomePageFolder.ListMenuInfo">
+            <summary>
+            The ListMenu item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.HomePageFolder.MenuIsOpen">
+            <summary>
+            The MenuIsOpen item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.HomePageFolder.MenuIsOpenInfo">
+            <summary>
+            The MenuIsOpen item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.HomePageFolder.parentMenu">
+            <summary>
+            The parentMenu item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.HomePageFolder.parentMenuInfo">
+            <summary>
+            The parentMenu item info.
+            </summary>
+        </member>
+        <member name="T:MBA_Testing.MBA_TestingRepositoryFolders.AJOA_PageAppFolder">
+            <summary>
+            The AJOA_PageAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MBA_Testing.MBA_TestingRepositoryFolders.AJOA_PageAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new AJOA_Page  folder.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AJOA_PageAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AJOA_PageAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AJOA_PageAppFolder.LoginPage">
+            <summary>
+            The LoginPage folder.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AJOA_PageAppFolder.HomePage">
+            <summary>
+            The HomePage folder.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AJOA_PageAppFolder.AddToCart">
+            <summary>
+            The AddToCart folder.
+            </summary>
+        </member>
+        <member name="T:MBA_Testing.MBA_TestingRepositoryFolders.LoginPageFolder">
+            <summary>
+            The LoginPageFolder folder.
+            </summary>
+        </member>
+        <member name="M:MBA_Testing.MBA_TestingRepositoryFolders.LoginPageFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new LoginPage  folder.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.LoginPageFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.LoginPageFolder.btnLogout">
+            <summary>
+            The btnLogout item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.LoginPageFolder.btnLogoutInfo">
+            <summary>
+            The btnLogout item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.LoginPageFolder.btnLogin">
+            <summary>
+            The btnLogin item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.LoginPageFolder.btnLoginInfo">
+            <summary>
+            The btnLogin item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.LoginPageFolder.txtEmail">
+            <summary>
+            The txtEmail item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.LoginPageFolder.txtEmailInfo">
+            <summary>
+            The txtEmail item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.LoginPageFolder.txtPassword">
+            <summary>
+            The txtPassword item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.LoginPageFolder.txtPasswordInfo">
+            <summary>
+            The txtPassword item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.LoginPageFolder.btnLgin">
+            <summary>
+            The btnLgin item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.LoginPageFolder.btnLginInfo">
+            <summary>
+            The btnLgin item info.
+            </summary>
+        </member>
+        <member name="T:MBA_Testing.MBA_TestingRepositoryFolders.HomePageFolder1">
+            <summary>
+            The HomePageFolder1 folder.
+            </summary>
+        </member>
+        <member name="M:MBA_Testing.MBA_TestingRepositoryFolders.HomePageFolder1.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new HomePage  folder.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.HomePageFolder1.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.HomePageFolder1.txtSearch">
+            <summary>
+            The txtSearch item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.HomePageFolder1.txtSearchInfo">
+            <summary>
+            The txtSearch item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.HomePageFolder1.btnSearch">
+            <summary>
+            The btnSearch item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.HomePageFolder1.btnSearchInfo">
+            <summary>
+            The btnSearch item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.HomePageFolder1.btnLogout">
+            <summary>
+            The btnLogout item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.HomePageFolder1.btnLogoutInfo">
+            <summary>
+            The btnLogout item info.
+            </summary>
+        </member>
+        <member name="T:MBA_Testing.MBA_TestingRepositoryFolders.AddToCartFolder">
+            <summary>
+            The AddToCartFolder folder.
+            </summary>
+        </member>
+        <member name="M:MBA_Testing.MBA_TestingRepositoryFolders.AddToCartFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new AddToCart  folder.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AddToCartFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AddToCartFolder.btnAddToCart">
+            <summary>
+            The btnAddToCart item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AddToCartFolder.btnAddToCartInfo">
+            <summary>
+            The btnAddToCart item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AddToCartFolder.btnCart">
+            <summary>
+            The btnCart item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AddToCartFolder.btnCartInfo">
+            <summary>
+            The btnCart item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AddToCartFolder.ListProduct">
+            <summary>
+            The ListProduct item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AddToCartFolder.ListProductInfo">
+            <summary>
+            The ListProduct item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AddToCartFolder.ListFoundProduct">
+            <summary>
+            The ListFoundProduct item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AddToCartFolder.ListFoundProductInfo">
+            <summary>
+            The ListFoundProduct item info.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AddToCartFolder.ListProductCart">
+            <summary>
+            The ListProductCart item.
+            </summary>
+        </member>
+        <member name="P:MBA_Testing.MBA_TestingRepositoryFolders.AddToCartFolder.ListProductCartInfo">
+            <summary>
+            The ListProductCart item info.
+            </summary>
+        </member>
+        <member name="T:MBA_Testing.OpenAJOAPage">
+            <summary>
+            Description of OpenAJOAPage.
+            </summary>
+        </member>
+        <member name="M:MBA_Testing.OpenAJOAPage.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MBA_Testing.OpenAJOAPage.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:MBA_Testing.OpenBrowser">
+            <summary>
+            Description of OpenBrowser.
+            </summary>
+        </member>
+        <member name="M:MBA_Testing.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MBA_Testing.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:MBA_Testing.Openbrowser.OpenBrowserAJOA">
+            <summary>
+            Description of OpenBrowserAJOA.
+            </summary>
+        </member>
+        <member name="M:MBA_Testing.Openbrowser.OpenBrowserAJOA.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MBA_Testing.Openbrowser.OpenBrowserAJOA.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:MBA_Testing.OpenListProduct">
+            <summary>
+            Description of OpenListProduct.
+            </summary>
+        </member>
+        <member name="M:MBA_Testing.OpenListProduct.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MBA_Testing.OpenListProduct.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:MBA_Testing.SearchAndValidateProduct">
+            <summary>
+            Description of Search_TC_001.
+            </summary>
+        </member>
+        <member name="M:MBA_Testing.SearchAndValidateProduct.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MBA_Testing.SearchAndValidateProduct.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

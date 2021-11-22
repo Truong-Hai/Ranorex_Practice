@@ -1,0 +1,734 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="2.9m"
+		durationms="174213"
+		type="root"
+		rid="22ff6b2c0ba4475e"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="2"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="PC"
+		rxversion="10.1.2.0"
+		host="DESKTOP-VK50CN0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="11/21/2021 8:40:52 PM"
+		timestampiso="2021-11-21T13:40:52"
+		endtime="11/21/2021 8:43:47 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="2.6m"
+			durationms="154887"
+			type="test-suite"
+			rid="1ba3c8ff9fe2380"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="2"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="2"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="MBA_Testing"
+			headertext="MBA_Testing"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Success"
+				duration="724ms"
+				durationms="724"
+				type="setup-container"
+				rid="5e87854ff9e5137"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="1"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0">
+				<activity
+					result="Success"
+					duration="706ms"
+					durationms="706"
+					type="test-module"
+					rid="3c413273a1bfedc"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="OpenBrowser"
+					displayName="OpenBrowser"
+					moduleid="ec65491d-a3d1-45fd-9ca6-98b2c09727aa"
+					moduletype="UserCode"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+				</activity>
+			</activity>
+			<activity
+				result="Failed"
+				duration="2.6m"
+				durationms="154079"
+				type="smart-folder"
+				rid="120692907cfa2c6"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="0"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="2"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="AddNewProduct"
+				testcontainerid="88bac352-e398-4621-ab40-040c05bd2e54"
+				headertext="AddNewProduct"
+				displayName="AddNewProduct"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Failed"
+					duration="2.6m"
+					durationms="154073"
+					type="test-case"
+					rid="209f027f11cf387a"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="1"
+					totalblockedtestcasecount="0"
+					childsuccesscount="3"
+					childfailedcount="1"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="1"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					testcontainername="AddNew"
+					testcontainerid="f67f2b2a-5a8d-4954-bbff-30205a7b7660"
+					headertext="AddNew"
+					displayName="AddNew"
+					iteration="1"
+					activity-exectype="execute"
+					conditionstate="none">
+					<activity
+						result="Success"
+						duration="16.59s"
+						durationms="16587"
+						type="setup-container"
+						rid="1a035c4b7f45cfcc"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="1"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0">
+						<activity
+							result="Success"
+							duration="16.59s"
+							durationms="16587"
+							type="test-module"
+							rid="244348b88e4b2e00"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="0"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0"
+							modulename="LoginMBA"
+							displayName="LoginMBA"
+							moduleid="892d32bc-ad5c-4633-87f0-f458fd9a439d"
+							moduletype="UserCode"
+							iteration="1"
+							activity-exectype="execute"
+							testentry-activity-type="testmodule">
+							<varbindings>
+							</varbindings>
+						</activity>
+					</activity>
+					<activity
+						result="Success"
+						duration="1.1m"
+						durationms="65500"
+						type="test-module"
+						rid="f106b61de932574"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="OpenListProduct"
+						displayName="OpenListProduct"
+						moduleid="37f681ee-c7f0-4637-bd95-352b9b37c802"
+						moduletype="UserCode"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="01:17.505"
+							timeRelativeToTestModuleStartTime="01:00.111"
+							timeWallClock="20:42:29"
+							time="01:17.505"
+							level="Info"
+							category="User">
+							<message>
+								Item 'CheckCatalogOpen' was found using Robust path.
+							</message>
+							<metainfo
+								codefile="C:\Users\PC\Desktop\MBA Testing\MBA Testing\AddNewProduct\LibFunction.cs"
+								codeline="160"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+					<activity
+						result="Failed"
+						duration="1.2m"
+						durationms="71285"
+						type="test-module"
+						rid="906d623460e7f4c"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="AddNewProd"
+						displayName="AddNewProd"
+						moduleid="11e3f889-9a54-46b2-88d7-292243b85ee6"
+						moduletype="UserCode"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="02:22.617"
+							timeRelativeToTestModuleStartTime="00:59.722"
+							timeWallClock="20:43:34"
+							time="02:22.617"
+							level="Info"
+							category="User">
+							<message>
+								Item 'btnSave' was found using Robust path.
+							</message>
+							<metainfo
+								codefile="C:\Users\PC\Desktop\MBA Testing\MBA Testing\AddNewProduct\AddNewProd.cs"
+								codeline="57"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:28.416"
+							timeRelativeToTestModuleStartTime="01:05.521"
+							timeWallClock="20:43:40"
+							time="02:28.416"
+							level="Failure"
+							category="Product Name">
+							<message>
+								defect be found: No$10 Truong Hai testingdataadded
+							</message>
+							<metainfo
+								codefile="C:\Users\PC\Desktop\MBA Testing\MBA Testing\Helpers\LibraryFuntionMBA.cs"
+								codeline="176"
+								loglvl="Failure">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:28.442"
+							timeRelativeToTestModuleStartTime="01:05.547"
+							timeWallClock="20:43:40"
+							time="02:28.442"
+							level="Failure"
+							category="Product Name">
+							<message>
+								defect be found: No$10 Truong Hai testingdataadded
+							</message>
+							<metainfo
+								codefile="C:\Users\PC\Desktop\MBA Testing\MBA Testing\Helpers\LibraryFuntionMBA.cs"
+								codeline="176"
+								loglvl="Failure">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:28.475"
+							timeRelativeToTestModuleStartTime="01:05.580"
+							timeWallClock="20:43:40"
+							time="02:28.475"
+							level="Info"
+							category="Product Name">
+							<message>
+								&#32;$10 Truong Hai testingdata
+							</message>
+							<metainfo
+								codefile="C:\Users\PC\Desktop\MBA Testing\MBA Testing\Helpers\LibraryFuntionMBA.cs"
+								codeline="171"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:28.508"
+							timeRelativeToTestModuleStartTime="01:05.612"
+							timeWallClock="20:43:40"
+							time="02:28.508"
+							level="Failure"
+							category="Product Name">
+							<message>
+								defect be found: No$10 Truong Hai testingdataadded
+							</message>
+							<metainfo
+								codefile="C:\Users\PC\Desktop\MBA Testing\MBA Testing\Helpers\LibraryFuntionMBA.cs"
+								codeline="176"
+								loglvl="Failure">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:28.541"
+							timeRelativeToTestModuleStartTime="01:05.646"
+							timeWallClock="20:43:40"
+							time="02:28.541"
+							level="Failure"
+							category="Product Name">
+							<message>
+								defect be found: No$10 Truong Hai testingdataadded
+							</message>
+							<metainfo
+								codefile="C:\Users\PC\Desktop\MBA Testing\MBA Testing\Helpers\LibraryFuntionMBA.cs"
+								codeline="176"
+								loglvl="Failure">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:28.575"
+							timeRelativeToTestModuleStartTime="01:05.680"
+							timeWallClock="20:43:40"
+							time="02:28.575"
+							level="Failure"
+							category="Product Name">
+							<message>
+								defect be found: No$10 Truong Hai testingdataadded
+							</message>
+							<metainfo
+								codefile="C:\Users\PC\Desktop\MBA Testing\MBA Testing\Helpers\LibraryFuntionMBA.cs"
+								codeline="176"
+								loglvl="Failure">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:28.609"
+							timeRelativeToTestModuleStartTime="01:05.713"
+							timeWallClock="20:43:40"
+							time="02:28.609"
+							level="Failure"
+							category="Product Name">
+							<message>
+								defect be found: No$10 Truong Hai testingdataadded
+							</message>
+							<metainfo
+								codefile="C:\Users\PC\Desktop\MBA Testing\MBA Testing\Helpers\LibraryFuntionMBA.cs"
+								codeline="176"
+								loglvl="Failure">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:28.641"
+							timeRelativeToTestModuleStartTime="01:05.745"
+							timeWallClock="20:43:40"
+							time="02:28.641"
+							level="Failure"
+							category="Product Name">
+							<message>
+								defect be found: No$10 Truong Hai testingdataadded
+							</message>
+							<metainfo
+								codefile="C:\Users\PC\Desktop\MBA Testing\MBA Testing\Helpers\LibraryFuntionMBA.cs"
+								codeline="176"
+								loglvl="Failure">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:28.674"
+							timeRelativeToTestModuleStartTime="01:05.778"
+							timeWallClock="20:43:40"
+							time="02:28.674"
+							level="Failure"
+							category="Product Name">
+							<message>
+								defect be found: No$10 Truong Hai testingdataadded
+							</message>
+							<metainfo
+								codefile="C:\Users\PC\Desktop\MBA Testing\MBA Testing\Helpers\LibraryFuntionMBA.cs"
+								codeline="176"
+								loglvl="Failure">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:28.708"
+							timeRelativeToTestModuleStartTime="01:05.813"
+							timeWallClock="20:43:40"
+							time="02:28.708"
+							level="Failure"
+							category="Product Name">
+							<message>
+								defect be found: No$10 Truong Hai testingdataadded
+							</message>
+							<metainfo
+								codefile="C:\Users\PC\Desktop\MBA Testing\MBA Testing\Helpers\LibraryFuntionMBA.cs"
+								codeline="176"
+								loglvl="Failure">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:28.741"
+							timeRelativeToTestModuleStartTime="01:05.845"
+							timeWallClock="20:43:41"
+							time="02:28.741"
+							level="Failure"
+							category="Product Name">
+							<message>
+								defect be found: No$10 Truong Hai testingdataadded
+							</message>
+							<metainfo
+								codefile="C:\Users\PC\Desktop\MBA Testing\MBA Testing\Helpers\LibraryFuntionMBA.cs"
+								codeline="176"
+								loglvl="Failure">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:28.775"
+							timeRelativeToTestModuleStartTime="01:05.880"
+							timeWallClock="20:43:41"
+							time="02:28.775"
+							level="Failure"
+							category="Product Name">
+							<message>
+								defect be found: No$10 Truong Hai testingdataadded
+							</message>
+							<metainfo
+								codefile="C:\Users\PC\Desktop\MBA Testing\MBA Testing\Helpers\LibraryFuntionMBA.cs"
+								codeline="176"
+								loglvl="Failure">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:28.808"
+							timeRelativeToTestModuleStartTime="01:05.913"
+							timeWallClock="20:43:41"
+							time="02:28.808"
+							level="Failure"
+							category="Product Name">
+							<message>
+								defect be found: No$10 Truong Hai testingdataadded
+							</message>
+							<metainfo
+								codefile="C:\Users\PC\Desktop\MBA Testing\MBA Testing\Helpers\LibraryFuntionMBA.cs"
+								codeline="176"
+								loglvl="Failure">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:28.841"
+							timeRelativeToTestModuleStartTime="01:05.945"
+							timeWallClock="20:43:41"
+							time="02:28.841"
+							level="Failure"
+							category="Product Name">
+							<message>
+								defect be found: No$10 Truong Hai testingdataadded
+							</message>
+							<metainfo
+								codefile="C:\Users\PC\Desktop\MBA Testing\MBA Testing\Helpers\LibraryFuntionMBA.cs"
+								codeline="176"
+								loglvl="Failure">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:28.875"
+							timeRelativeToTestModuleStartTime="01:05.980"
+							timeWallClock="20:43:41"
+							time="02:28.875"
+							level="Failure"
+							category="Product Name">
+							<message>
+								defect be found: No$10 Truong Hai testingdataadded
+							</message>
+							<metainfo
+								codefile="C:\Users\PC\Desktop\MBA Testing\MBA Testing\Helpers\LibraryFuntionMBA.cs"
+								codeline="176"
+								loglvl="Failure">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:28.909"
+							timeRelativeToTestModuleStartTime="01:06.014"
+							timeWallClock="20:43:41"
+							time="02:28.909"
+							level="Failure"
+							category="Product Name">
+							<message>
+								defect be found: No$10 Truong Hai testingdataadded
+							</message>
+							<metainfo
+								codefile="C:\Users\PC\Desktop\MBA Testing\MBA Testing\Helpers\LibraryFuntionMBA.cs"
+								codeline="176"
+								loglvl="Failure">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:28.941"
+							timeRelativeToTestModuleStartTime="01:06.045"
+							timeWallClock="20:43:41"
+							time="02:28.941"
+							level="Failure"
+							category="Product Name">
+							<message>
+								defect be found: No$10 Truong Hai testingdataadded
+							</message>
+							<metainfo
+								codefile="C:\Users\PC\Desktop\MBA Testing\MBA Testing\Helpers\LibraryFuntionMBA.cs"
+								codeline="176"
+								loglvl="Failure">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:28.975"
+							timeRelativeToTestModuleStartTime="01:06.080"
+							timeWallClock="20:43:41"
+							time="02:28.975"
+							level="Failure"
+							category="Product Name">
+							<message>
+								defect be found: No$10 Truong Hai testingdataadded
+							</message>
+							<metainfo
+								codefile="C:\Users\PC\Desktop\MBA Testing\MBA Testing\Helpers\LibraryFuntionMBA.cs"
+								codeline="176"
+								loglvl="Failure">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:29.008"
+							timeRelativeToTestModuleStartTime="01:06.112"
+							timeWallClock="20:43:41"
+							time="02:29.008"
+							level="Failure"
+							category="Product Name"
+							errimg="images_MBA_Test_65cfa2ca\MBA_Test_65cfa2ca_d523339b_trace.jpg"
+							errthumb="images_MBA_Test_65cfa2ca\MBA_Test_65cfa2ca_d523339b_trace_thumb.jpg">
+							<message>
+								defect be found: No$10 Truong Hai testingdataadded
+							</message>
+							<metainfo
+								codefile="C:\Users\PC\Desktop\MBA Testing\MBA Testing\Helpers\LibraryFuntionMBA.cs"
+								codeline="176"
+								loglvl="Failure">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:29.043"
+							timeRelativeToTestModuleStartTime="01:06.147"
+							timeWallClock="20:43:41"
+							time="02:29.043"
+							level="Failure"
+							category="Product Name"
+							errimg="images_MBA_Test_65cfa2ca\MBA_Test_65cfa2ca_45fb5a84_trace.jpg"
+							errthumb="images_MBA_Test_65cfa2ca\MBA_Test_65cfa2ca_45fb5a84_trace_thumb.jpg">
+							<message>
+								defect be found: No$10 Truong Hai testingdataadded
+							</message>
+							<metainfo
+								codefile="C:\Users\PC\Desktop\MBA Testing\MBA Testing\Helpers\LibraryFuntionMBA.cs"
+								codeline="176"
+								loglvl="Failure">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:34.077"
+							timeRelativeToTestModuleStartTime="01:11.181"
+							timeWallClock="20:43:46"
+							time="02:34.077"
+							level="Error"
+							category="Module"
+							errimg="images_MBA_Test_65cfa2ca\MBA_Test_65cfa2ca_7f3b917c_trace.jpg"
+							errthumb="images_MBA_Test_65cfa2ca\MBA_Test_65cfa2ca_7f3b917c_trace_thumb.jpg">
+							<message>
+								The module has failed because one or more actions have failed.
+							</message>
+							<metainfo
+								loglvl="Error">
+							</metainfo>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="692ms"
+						durationms="692"
+						type="teardown-container"
+						rid="6b09ac8150836e0"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="1"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0">
+						<activity
+							result="Success"
+							duration="689ms"
+							durationms="689"
+							type="test-module"
+							rid="1f629c568b719b99"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="0"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0"
+							modulename="Logout"
+							displayName="Logout"
+							moduleid="427983c2-0767-4e4d-9a53-a6d815b1bca1"
+							moduletype="UserCode"
+							iteration="1"
+							activity-exectype="execute"
+							testentry-activity-type="testmodule">
+							<varbindings>
+							</varbindings>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+			<activity
+				result="Success"
+				duration="3ms"
+				durationms="3"
+				type="teardown-container"
+				rid="27983dd42034b2ea"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="1"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0">
+				<activity
+					result="Success"
+					duration="1ms"
+					durationms="1"
+					type="test-module"
+					rid="34c914839a31fb75"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="CloseMBA"
+					displayName="CloseMBA"
+					moduleid="0785c636-5053-46f2-a0e2-43c9d7c78391"
+					moduletype="UserCode"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

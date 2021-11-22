@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+# Ranorex Studio 10.1.0
+VisualStudioVersion = 12.0.20827.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C4067061-F4E1-46BC-BA69-32B78AE830E0}"
+	ProjectSection(SolutionItems) = postProject
+		Ranorex = .\Ranorex.rxsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MBA Testing", "MBA Testing\MBA Testing.csproj", "{05B84E99-4F26-4473-90B9-82C7D753F88B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05B84E99-4F26-4473-90B9-82C7D753F88B}.Debug|x86.Build.0 = Debug|x86
+		{05B84E99-4F26-4473-90B9-82C7D753F88B}.Debug|x86.ActiveCfg = Debug|x86
+		{05B84E99-4F26-4473-90B9-82C7D753F88B}.Release|x86.Build.0 = Release|x86
+		{05B84E99-4F26-4473-90B9-82C7D753F88B}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+EndGlobal

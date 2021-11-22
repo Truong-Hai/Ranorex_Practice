@@ -1,0 +1,19 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="RanorexPractice.rxtst" />
+  </Array>
+  <Array name="bookmarks">
+    <Element value="Breakpoint|C:\Users\PC\Desktop\MBA Testing\MBA Testing\Openbrowser\OpenAJOAPage.cs|48|13|True|Break||" />
+    <Element value="Breakpoint|C:\Users\PC\Desktop\MBA Testing\MBA Testing\Search\OpenListProduct.cs|53|9|True|Break||" />
+    <Element value="Breakpoint|C:\Users\PC\Desktop\MBA Testing\MBA Testing\AddNewProduct\LibFunction.cs|158|4|True|Break||" />
+  </Array>
+  <Array name="files">
+    <Element value="RanorexPractice.rxtst" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections" />
+  </Properties>
+</Properties>

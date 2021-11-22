@@ -1,0 +1,64 @@
+C:\Users\PC\Documents\Ranorex\RanorexStudio Projects\MBA Testing\MBA Testing\bin\Debug\MBA_Testing.rxtmg
+C:\Users\PC\Documents\Ranorex\RanorexStudio Projects\MBA Testing\MBA Testing\bin\Debug\MBA_Testing.rxtst
+C:\Users\PC\Documents\Ranorex\RanorexStudio Projects\MBA Testing\MBA Testing\bin\Debug\MBA Testing.exe.config
+C:\Users\PC\Documents\Ranorex\RanorexStudio Projects\MBA Testing\MBA Testing\bin\Debug\MBA Testing.xml
+C:\Users\PC\Documents\Ranorex\RanorexStudio Projects\MBA Testing\MBA Testing\bin\Debug\MBA Testing.exe
+C:\Users\PC\Documents\Ranorex\RanorexStudio Projects\MBA Testing\MBA Testing\bin\Debug\MBA Testing.pdb
+C:\Users\PC\Documents\Ranorex\RanorexStudio Projects\MBA Testing\MBA Testing\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\PC\Documents\Ranorex\RanorexStudio Projects\MBA Testing\MBA Testing\obj\x86\Debug\MBA Testing.exe
+C:\Users\PC\Documents\Ranorex\RanorexStudio Projects\MBA Testing\MBA Testing\obj\x86\Debug\MBA Testing.pdb
+C:\Users\PC\Documents\Ranorex\RanorexStudio Projects\MBA Testing\MBA Testing\obj\x86\Debug\MBA Testing.csproj.AssemblyReference.cache
+C:\Users\PC\Documents\Ranorex\RanorexStudio Projects\MBA Testing\MBA Testing\obj\x86\Debug\MBA Testing.exe.config
+C:\Users\PC\Documents\Ranorex\RanorexStudio Projects\MBA Testing\MBA Testing\obj\x86\Debug\MBA Testing.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\Ranorex\RanorexStudio Projects\MBA Testing\MBA Testing\bin\Debug\Fizzler.dll
+C:\Users\PC\Documents\Ranorex\RanorexStudio Projects\MBA Testing\MBA Testing\bin\Debug\Fizzler.Systems.HtmlAgilityPack.dll
+C:\Users\PC\Documents\Ranorex\RanorexStudio Projects\MBA Testing\MBA Testing\bin\Debug\HtmlAgilityPack.dll
+C:\Users\PC\Documents\Ranorex\RanorexStudio Projects\MBA Testing\MBA Testing\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\PC\Documents\Ranorex\RanorexStudio Projects\MBA Testing\MBA Testing\bin\Debug\Fizzler.Systems.HtmlAgilityPack.pdb
+C:\Users\PC\Documents\Ranorex\RanorexStudio Projects\MBA Testing\MBA Testing\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\PC\Documents\Ranorex\RanorexStudio Projects\MBA Testing\MBA Testing\bin\Debug\HtmlAgilityPack.xml
+C:\Users\PC\Documents\Ranorex\RanorexStudio Projects\MBA Testing\MBA Testing\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\MBA Testing\MBA Testing\bin\Debug\MBA_Testing.rxtmg
+D:\MBA Testing\MBA Testing\bin\Debug\MBA_Testing.rxtst
+D:\MBA Testing\MBA Testing\bin\Debug\MBA Testing.exe.config
+D:\MBA Testing\MBA Testing\bin\Debug\MBA Testing.xml
+D:\MBA Testing\MBA Testing\bin\Debug\MBA Testing.exe
+D:\MBA Testing\MBA Testing\bin\Debug\MBA Testing.pdb
+D:\MBA Testing\MBA Testing\bin\Debug\Fizzler.dll
+D:\MBA Testing\MBA Testing\bin\Debug\Fizzler.Systems.HtmlAgilityPack.dll
+D:\MBA Testing\MBA Testing\bin\Debug\HtmlAgilityPack.dll
+D:\MBA Testing\MBA Testing\bin\Debug\Ranorex.Core.Resolver.dll
+D:\MBA Testing\MBA Testing\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\MBA Testing\MBA Testing\bin\Debug\Fizzler.Systems.HtmlAgilityPack.pdb
+D:\MBA Testing\MBA Testing\bin\Debug\HtmlAgilityPack.pdb
+D:\MBA Testing\MBA Testing\bin\Debug\HtmlAgilityPack.xml
+D:\MBA Testing\MBA Testing\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\MBA Testing\MBA Testing\obj\x86\Debug\MBA Testing.exe.config
+D:\MBA Testing\MBA Testing\obj\x86\Debug\MBA Testing.csproj.CoreCompileInputs.cache
+D:\MBA Testing\MBA Testing\obj\x86\Debug\MBA Testing.exe
+D:\MBA Testing\MBA Testing\obj\x86\Debug\MBA Testing.pdb
+D:\MBA Testing\MBA Testing\obj\x86\Debug\MBA Testing.csproj.AssemblyReference.cache
+D:\MBA Testing\MBA Testing\obj\x86\Debug\MBA Testing.csproj.CopyComplete
+C:\Users\PC\Desktop\MBA Testing\MBA Testing\bin\Debug\MBA_Testing.rxtmg
+C:\Users\PC\Desktop\MBA Testing\MBA Testing\bin\Debug\MBA_Testing.rxtst
+C:\Users\PC\Desktop\MBA Testing\MBA Testing\bin\Debug\MBA Testing.exe.config
+C:\Users\PC\Desktop\MBA Testing\MBA Testing\bin\Debug\MBA Testing.xml
+C:\Users\PC\Desktop\MBA Testing\MBA Testing\bin\Debug\MBA Testing.exe
+C:\Users\PC\Desktop\MBA Testing\MBA Testing\bin\Debug\MBA Testing.pdb
+C:\Users\PC\Desktop\MBA Testing\MBA Testing\bin\Debug\Fizzler.dll
+C:\Users\PC\Desktop\MBA Testing\MBA Testing\bin\Debug\Fizzler.Systems.HtmlAgilityPack.dll
+C:\Users\PC\Desktop\MBA Testing\MBA Testing\bin\Debug\HtmlAgilityPack.dll
+C:\Users\PC\Desktop\MBA Testing\MBA Testing\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\PC\Desktop\MBA Testing\MBA Testing\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\PC\Desktop\MBA Testing\MBA Testing\bin\Debug\Fizzler.Systems.HtmlAgilityPack.pdb
+C:\Users\PC\Desktop\MBA Testing\MBA Testing\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\PC\Desktop\MBA Testing\MBA Testing\bin\Debug\HtmlAgilityPack.xml
+C:\Users\PC\Desktop\MBA Testing\MBA Testing\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\PC\Desktop\MBA Testing\MBA Testing\obj\x86\Debug\MBA Testing.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\MBA Testing\MBA Testing\obj\x86\Debug\MBA Testing.exe.config
+C:\Users\PC\Desktop\MBA Testing\MBA Testing\obj\x86\Debug\MBA Testing.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\MBA Testing\MBA Testing\obj\x86\Debug\MBA Testing.exe
+C:\Users\PC\Desktop\MBA Testing\MBA Testing\obj\x86\Debug\MBA Testing.pdb
+C:\Users\PC\Desktop\MBA Testing\MBA Testing\bin\Debug\AJOAPage.rxtst
+C:\Users\PC\Desktop\MBA Testing\MBA Testing\bin\Debug\MBA Testing.rxsqc
+C:\Users\PC\Desktop\MBA Testing\MBA Testing\bin\Debug\RanorexPractice.rxtst
